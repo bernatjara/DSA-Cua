@@ -5,7 +5,7 @@ public class LaMevaClase implements Queue{
     @Override
     public void push(Object o) throws FullQueueException {
         //
-        v[p++] = be;
+        //v[p++] = be;
     }
 
     @Override
@@ -15,6 +15,6 @@ public class LaMevaClase implements Queue{
 
     @Override
     public int size() {
-        return 0;
+        return 200;
     }
 }
